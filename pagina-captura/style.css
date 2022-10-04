@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+}
+
+.main{
+    margin: auto;
+    max-height: 870px;
+    width: 1200px;
+}
+
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 10px;
+    font-weight: 900;
+    color: white;
+    background-color: #31aed2;
+}
+
+.section{
+    background-image: url(img/people.jpg);
+    height: 565px;
+    position: relative;
+}
+
+.catch{
+    box-sizing: border-box;
+    height: 510px;
+    width: 300px;
+    background-color: #fff;
+    opacity: 0.7;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 25px;
+}
+
+.t1{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+
