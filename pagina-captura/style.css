@@ -22,32 +22,25 @@ body{
 
 .section{
     background-image: url(img/people.jpg);
-    height: 565px;
+    overflow: hidden;
     position: relative;
+    padding: 20px;
 }
 
 .catch{
     box-sizing: border-box;
-    
     width: 300px;
     background-color: rgb(255, 255, 255, 70%);
-    position: absolute;
-    right: 30px;
-    top: 50%;
-    transform: translateY(-50%);
     padding: 25px;
     overflow: hidden;
+    margin: 0%;
+    float: right;
 }
 
 @media screen and (max-width: 730px){
     .catch{
         text-align: center;
-        width: 90%;
-    }
-
-    .form{
-        display: block;
-        margin: auto;
+        width: auto;
     }
 }
 
@@ -66,12 +59,12 @@ body{
 .form{
     box-sizing: border-box;
     height: 40px;
-    width: 250px;
+    width: 100%;
     margin-bottom: 10px;
     padding-left: 10px;
-    color: rgba(0, 0, 0, 0.363);
     font-weight: 900;
     font-size: 13px;
+    border: none;
 }
 
 select{
@@ -86,7 +79,6 @@ select{
 .submit{
     background-color: #31aed2;
     color: rgb(255, 255, 255);
-    border-color: #31aed2;
 }
 
 .footer{
@@ -105,6 +97,17 @@ select{
     display: inline-block;
     max-width: 40%;
     text-align: left;
+}
+
+@media screen and (max-width: 490px){
+    .description{
+        display: inline;
+    }
+
+    .face{
+        margin: auto;
+        height: 50vw;
+    }
 }
 
 
