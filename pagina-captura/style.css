@@ -28,7 +28,7 @@ body{
 
 .catch{
     box-sizing: border-box;
-    height: 510px;
+    
     width: 300px;
     background-color: rgb(255, 255, 255, 70%);
     position: absolute;
@@ -36,6 +36,19 @@ body{
     top: 50%;
     transform: translateY(-50%);
     padding: 25px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 730px){
+    .catch{
+        text-align: center;
+        width: 90%;
+    }
+
+    .form{
+        display: block;
+        margin: auto;
+    }
 }
 
 .t1{
@@ -61,6 +74,15 @@ body{
     font-size: 13px;
 }
 
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(img/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
 .submit{
     background-color: #31aed2;
     color: rgb(255, 255, 255);
@@ -69,16 +91,20 @@ body{
 
 .footer{
     background-color: #202122;
-    padding: 55px;
-    padding-left: 250px;
-    padding-right: 250px;
-    color: white;
+    text-align: center;
+    padding: 40px;
 }
 
 .face{
     height: 200px;
-    float: left;
-    margin-right: 20px;
+    margin-right: 40px;
+}
+
+.description{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    text-align: left;
 }
 
 
